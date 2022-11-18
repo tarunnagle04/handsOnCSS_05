@@ -1,0 +1,492 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: yellow;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    position: relative;
+    left: 650px;
+    top: 100px;
+    margin: 20px;
+}
+#new{
+    position: relative;
+    left: 800px;
+}
+#div1{
+    width: 150px;
+    height: 150px;
+    background-color: mediumseagreen;
+    /* display: inline-block; */
+    /* overflow: auto; */
+    margin: 20px;
+}
+#div1:hover{
+    transform: scaleX(4);
+    transition-duration: 2s;    
+}
+#div2{
+    width: 150px;
+    height: 150px;
+    background-color: mediumseagreen;
+    /* display: inline-block; */
+    /* overflow: auto; */
+    margin: 20px;
+}
+#div3{
+    width: 150px;
+    height: 150px;
+    background-color: mediumseagreen;
+    /* display: inline-block; */
+    /* overflow: auto; */
+    margin: 20px;
+}
+#div4{
+    width: 150px;
+    height: 150px;
+    background-color: mediumseagreen;
+    /* display: inline-block; */
+    /* overflow: auto; */
+    margin: 20px;
+}
+#div5{
+    width: 150px;
+    height: 150px;
+    background-color: mediumseagreen;
+    /* display: inline-block; */
+    /* overflow: auto; */
+    margin: 20px;
+}
+#div6{
+    width: 150px;
+    height: 150px;
+    background-color: mediumseagreen;
+    /* display: inline-block; */
+    /* overflow: auto; */
+    margin: 20px;
+}
+.div1{
+    width: 150px;
+    height: 150px;
+    background-color: mediumseagreen;
+    display: inline-block;
+    overflow: auto;
+    transform: skewX(-25deg);
+    animation-name: divone;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: all;
+}
+@keyframes divone{
+    0%{
+        transform: skewX(-25deg);
+    }
+    /* 25%{
+        transform: skewX(0deg);
+    } */
+    50%{
+        transform: skewX(25deg);
+    }
+    /* 75%{
+        transform: skewX(0deg);
+    } */
+    100%{
+        transform: skewX(-25deg);
+    }
+}
+@keyframes divtwo{
+    0%{
+        transform: skewY(-25deg);
+    }
+
+    50%{
+        transform: skewY(25deg);
+    }
+
+    100%{
+        transform: skewY(-25deg);
+    }
+}
+@keyframes divthree{
+    0%{
+        transform: rotateZ(0deg);
+    }
+
+    50%{
+        transform: rotateZ(180eg);
+    }
+
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+.div2{
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    display: inline-block;
+    overflow: auto;
+    transform: skewY(-25deg);
+    animation-name: divtwo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: all;
+}
+.div3{
+    width: 150px;
+    height: 150px;
+    background-color: mediumseagreen;
+    display: inline-block;
+    overflow: auto;
+    animation-name: divthree;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: all;
+}
+.div4{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    display: inline-block;
+    overflow: auto;
+    transform: scaleY(100%);
+    animation-name: divfour;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes divfour{
+    0%{
+        transform: scaleY(100%);
+    }
+
+    50%{
+        transform: scaleY(50%);
+    }
+
+    100%{
+        transform: scaleY(100%);
+    }
+
+}
+@keyframes a{
+    0%{
+        transform: scaleX(100%);
+    }
+
+    50%{
+        transform: scaleX(50%);
+    }
+
+    100%{
+        transform: scaleX(100%);
+    }
+
+}
+@keyframes b{
+    0%{
+        transform: rotateZ(0deg);
+    }
+
+    50%{
+        transform: rotateZ(150deg);
+    }
+
+    100%{
+        transform: rotateZ(0deg);
+    }
+
+}
+.a{
+    background-color: red;
+        width: 150px;
+    height: 150px;
+    /* background-color: blue; */
+    display: inline-block;
+    overflow: auto;
+    transform: scaleX(100%);
+    animation-name: a;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+.b{
+    background-color: green;
+        width: 150px;
+    height: 150px;
+    /* background-color: blue; */
+    display: inline-block;
+    overflow: auto;
+    transform: rotateZ(100%);
+    animation-name: b;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+a{
+    color: black;
+    font-size: xx-large;
+    position: relative;
+    left: 750px;
+    font-weight: 900;
+    top: 150px;
+}
+.d{
+    position: relative;
+    left: 870px;
+}
+
+/* page_w */
+
+.main2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+
+.divs{
+    align-items: center;
+    margin-top: 30px;
+    }
+
+.box1{
+    width:100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 100px;
+    background-color: yellowgreen;
+    
+}
+
+.box1:hover{
+    animation-name: anime_01;
+    animation-duration: 4s;
+    /* animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+    
+}
+.box2{
+    width:100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 100px;
+    background-color: yellowgreen;
+    
+}
+.box2:hover{
+    animation-name: anime_02;
+    animation-duration: 4s;
+}
+.box3{
+    width:100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 100px;
+    background-color: yellowgreen;
+    
+}
+.box3:hover {
+    animation-name: anime_03;
+    animation-duration: 2s;
+}
+.ease1 {
+    animation-timing-function: ease-in-out;
+}
+ol{
+    list-style: none;
+    counter-reset: list;
+}
+.list_items{
+    position: relative;
+}
+.list_items:before {
+    counter-increment: list;
+    content: counter(list) '.';
+    position: absolute;
+    right: 100%;
+    margin-right: 5px;
+    top:0;
+}
+
+@keyframes anime_01{
+    50% {
+        width:300px;
+        /* height: 100px; */
+    }
+    100% {
+        width:100px;
+    }
+}
+
+@keyframes anime_02{
+    25%{
+        width:300px;
+        height:300px;
+    }
+    
+    50% {
+        width: 300px;
+        height: 300px;
+    }
+    75%{
+        width: 100px;
+    }
+    100% {
+        height:100px;
+       
+    }
+}
+@keyframes anime_03{
+    50% {
+        width:300px;
+        
+    }
+    100% {
+        width:100px;
+    }
+}
+
+
+/* page# */
+
+.left__orange{
+    position: absolute;
+    width: 10px;
+    height: 115vh;
+    z-index: -1;
+    background-color: orange;
+    left:10px;
+    transform: skewY(52deg);
+    top: 8px;
+}
+
+.right__green{
+    position: absolute;
+    width:10px;
+    height: 115vh;
+    z-index: -1;
+    background-color: green;
+    right: 10px;
+    transform: skewY(-52deg);
+    top: 8px;
+}
+.sky{
+    position: relative;
+    z-index: 1;
+    height: 80vh;
+    background-image: url("./sky.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+.color_orange{
+    background-color: orange;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.color_white{
+    background-color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+.color_green{
+    background-color: green;
+    font-size: 50px;
+    font-weight: 600;
+}
+.building{
+    background-image: url(./city.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 0;
+    top: 148px;
+    z-index: 3;
+    height: 260px;
+}
+
+.road{
+    height: 31vh;
+    background-image: url(./road.jpg);
+    display: flex;
+    justify-content: center;
+    /* margin-top: 0px; */
+    animation-name: ROAD_ANIMATION;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+
+.car{
+    position: relative;
+    z-index: 5;
+    top: -38px;
+}
+
+.wheel1{
+    position: relative;
+    top: 44px;
+    left: -108px;
+    width: 65px;
+    height: 60px;
+    animation-name: WHEEL_ANIMATION;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+
+.wheel2{
+    position: relative;
+    top: 44px;
+    left: -394px;
+    width: 65px;
+    height: 60px;
+    animation-name: WHEEL_ANIMATION;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.flag{
+    position: relative;
+    height: 100px;
+    top:-54px;
+    right: 210px;
+    z-index: 5;
+}
+.sun{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top:90px;
+    left: 85vw;
+    
+}
+
+@keyframes WHEEL_ANIMATION{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes ROAD_ANIMATION{
+    0%{
+        background-position: 0px 0px;
+    }
+    100%{
+        background-position: -100vw 0px;
+    }
+}
+
+#divss{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -100px;
+}
